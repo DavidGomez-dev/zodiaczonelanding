@@ -7,7 +7,7 @@ elsif page.header.video.id and page.header.video.provider %} {% include page__he
 page.url != "/" and site.breadcrumbs %} {% unless paginator %} {% include breadcrumbs.html %} {% endunless %} {% endif
 %}
 
-<div id="main" role="main">
+<div id="main" role="main" class="pb-5">
   <div class="archive">
     {% unless page.header.overlay_color or page.header.overlay_image %}
     <h1 id="page-title" class="page__title">{{ page.title }}</h1>

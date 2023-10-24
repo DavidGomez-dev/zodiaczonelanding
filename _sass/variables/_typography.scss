@@ -9,9 +9,16 @@
   src: url("../fonts/YoungSerif-Regular.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
+
 // Override Bootstrap typography variables
 
-$font-family-base: "Mulish", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
+$font-family-base: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
   "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
 $headings-font-family: "YoungSerif", "serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple Color Emoji",
