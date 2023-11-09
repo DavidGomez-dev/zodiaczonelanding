@@ -18,7 +18,7 @@ tags:
   - Wellness and Health
   - Spiritual Development
   - Astrology and Horoscopes
-classes: wide
+classes: wide theme-dark
 date: 2023-10-15 10:46:57 +0100
 excerpt: Embark on a journey of transformation this October as the new moon beckons, offering a prime time for initiating change and channeling cosmic energy to manifest your aspirations.
 header:
