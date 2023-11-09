@@ -159,6 +159,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      classes: "theme-dark"
 
 category_archive:
   type: liquid
