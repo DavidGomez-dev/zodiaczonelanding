@@ -18,12 +18,13 @@ tags:
   - Wellness and Health
   - Spiritual Development
   - Astrology and Horoscopes
-classes: wide theme-dark
+classes: wide theme-dark blogapp
 date: 2023-10-15 10:46:57 +0100
 excerpt: Embark on a journey of transformation this October as the new moon beckons, offering a prime time for initiating change and channeling cosmic energy to manifest your aspirations.
 header:
   overlay_image: /assets/images/posts/2023-10-15.png
   teaser: /assets/images/posts/2023-10-15.png
+  overlay_filter: linear-gradient(to right bottom,rgb(50 17 132 / 95%), rgb(249 212 73 / 58%))
 ---
 
 # Maximize Your Potential with the October New Moon Rituals - A Guide to Self-Transformation and Manifestation

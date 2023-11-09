@@ -16,7 +16,7 @@ tags:
   - Rising Sign Characteristics
   - Birth Chart Analysis
   - Astrology Fundamentals
-classes: wide theme-dark
+classes: wide theme-dark blogapp
 date: 2023-11-09 10:46:57 +0100
 excerpt: Capricorn rising individuals exude a grounded and tenacious energy in their approach to life.
 header:
