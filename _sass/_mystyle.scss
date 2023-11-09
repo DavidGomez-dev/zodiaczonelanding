@@ -12,18 +12,22 @@
 //   color: #fff5d0 !important;
 // }
 
-$darkColor: #fff5d0;
-
 .archive__item a {
   text-decoration: none;
   font-family: $headings-font-family;
 }
+
+// For putting the blog on the app
 
 .blogapp .initial-content,
 .search-content {
   padding-top: 0 !important; // To start right at the top
   padding-bottom: 4rem !important; // To let some space on for the menu footer app bar
 }
+
+// Dark mode classes
+
+$darkColor: #fff5d0;
 
 .theme-dark h1,
 .theme-dark h2,
@@ -35,7 +39,8 @@ $darkColor: #fff5d0;
 }
 
 body.theme-dark,
-.theme-dark .masthead {
+.theme-dark .masthead,
+.theme-dark .page__meta {
   background-color: #0f1117;
   color: #d6d6d6;
 }
