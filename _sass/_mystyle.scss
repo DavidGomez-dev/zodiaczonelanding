@@ -19,6 +19,12 @@ $darkColor: #fff5d0;
   font-family: $headings-font-family;
 }
 
+.blogapp .initial-content,
+.search-content {
+  padding-top: 0 !important; // To start right at the top
+  padding-bottom: 4rem !important; // To let some space on for the menu footer app bar
+}
+
 .theme-dark h1,
 .theme-dark h2,
 .theme-dark h3,
