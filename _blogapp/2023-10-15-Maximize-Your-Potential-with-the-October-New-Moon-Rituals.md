@@ -24,7 +24,7 @@ excerpt: Embark on a journey of transformation this October as the new moon beck
 header:
   overlay_image: /assets/images/posts/2023-10-15.png
   teaser: /assets/images/posts/2023-10-15.png
-  overlay_filter: linear-gradient(to right bottom,rgba(0, 153, 255,0.8), rgba(255, 51, 133,0.5))
+  overlay_filter: linear-gradient(to right bottom,rgba(150, 122, 220,0.8), rgba(255,245,208,0.5))
 ---
 
 # Maximize Your Potential with the October New Moon Rituals - A Guide to Self-Transformation and Manifestation
