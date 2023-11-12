@@ -59,3 +59,17 @@ body.theme-dark,
   color: $darkColor;
   border-color: $darkColor;
 }
+
+.masthead {
+  background: linear-gradient(
+      180deg,
+      transparent 0,
+      transparent 20%,
+      rgba(0, 0, 0, 0.1) 30%,
+      rgba(0, 0, 0, 0.8) 70%,
+      #000
+    ),
+    url(../images/bg-zodiac.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}

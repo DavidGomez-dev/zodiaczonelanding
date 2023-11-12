@@ -13,15 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Zodiac Zone Horoscope
-email: counterpeopleapp@gmail.com
+title: Zodiac Zone
+email: zodiaczonehoroscope@gmail.com
 pwalink: "https://app.zodiaczonehoroscope.com/"
 googleplaylink: "https://play.google.com/store/apps/details?id=com.counterpeople.www.twa"
 appstorelink: "/?ref=requestappstore"
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: "Explore Zodiac Zone for insightful daily horoscopes, love compatibility, and personalized astrological guidance to elevate your lifestyle. Your cosmic journey begins here."
 twitter_username: TwitterUsername
 github_username: username
 minimal_mistakes_skin: contrast #default
