@@ -3,14 +3,11 @@
 //   color: #d6d6d6;
 // }
 
-// h1,
-// h2,
-// h3,
-// h4,
-// h5,
-// a {
-//   color: #fff5d0 !important;
-// }
+h1,
+h2,
+h3 {
+  padding-top: 1rem !important;
+}
 
 .archive__item a {
   text-decoration: none;
@@ -43,6 +40,10 @@ body.theme-dark,
 .theme-dark .page__meta {
   background-color: #0f1117;
   color: #d6d6d6;
+}
+
+.theme-dark .page__hero--overlay .page__meta {
+  background-color: transparent !important;
 }
 
 .theme-dark #mainNav {
