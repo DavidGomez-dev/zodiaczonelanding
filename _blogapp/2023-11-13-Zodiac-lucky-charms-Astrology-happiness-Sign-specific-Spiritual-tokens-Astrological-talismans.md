@@ -12,8 +12,8 @@ classes: wide theme-dark blogapp
 date: 2023-11-13 15:21:23 +0100
 excerpt: Zodiac lucky charms have been treasured throughout history, providing guidance and comfort to those who believe in the power of astrology.
 header:
-  overlay_image: /assets/images/posts/2023-11-13_79.jpg
-  teaser: /assets/images/posts/2023-11-13_79.jpg
+  overlay_image: /assets/images/posts/2023-11-13_79.png
+  teaser: /assets/images/posts/2023-11-13_79.png
   caption:
   overlay_filter: linear-gradient(to right bottom,rgba(150, 122, 220,0.8), rgba(255,245,208,0.5))
 ---

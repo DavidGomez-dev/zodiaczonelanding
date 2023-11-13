@@ -20,8 +20,9 @@ classes: wide theme-dark blogapp
 date: 2023-11-09 10:46:57 +0100
 excerpt: Capricorn rising individuals exude a grounded and tenacious energy in their approach to life.
 header:
-  overlay_image: /assets/images/posts/2023-11-09.png
-  teaser: /assets/images/posts/2023-11-09.png
+  overlay_image: /assets/images/posts/2023-11-09.jpg
+  teaser: /assets/images/posts/2023-11-09.jpg
+  overlay_filter: linear-gradient(to right bottom,rgba(150, 122, 220,0.8), rgba(255,245,208,0.5))
 ---
 
 # Understanding Capricorn Rising: Characteristics and Influence on Your Astrological Profile
