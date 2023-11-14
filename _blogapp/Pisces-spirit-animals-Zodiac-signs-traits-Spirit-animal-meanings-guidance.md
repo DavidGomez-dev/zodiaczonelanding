@@ -1,7 +1,7 @@
 ---
 layout: singleapp
 title: "Unveiling the Pisces Spirit Animals: Zodiac Insights and Spiritual Guides"
-categories: blog
+categories: astrology
 tags:
   - Pisces spirit animals
   - Zodiac signs

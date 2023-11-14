@@ -1,7 +1,7 @@
 ---
 layout: singleapp
 title: "Unveiling the Aries Spirit Animals: 5 Creatures That Embody the Cardinal Fire Sign"
-categories: blog
+categories: astrology
 tags:
   - Aries spirit animals
   - cardinal fire sign

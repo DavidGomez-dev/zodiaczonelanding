@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Maximize Your Potential with the October New Moon Rituals"
-categories: blog
+categories: health
 tags:
   - October New Moon
   - New Moon Rituals

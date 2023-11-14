@@ -1,7 +1,7 @@
 ---
 layout: singleapp
 title: "Understanding Capricorn Rising"
-categories: blog
+categories: astrology
 tags:
   - Capricorn
   - Capricorn Rising

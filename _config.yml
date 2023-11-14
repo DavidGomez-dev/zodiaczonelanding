@@ -16,7 +16,7 @@
 title: Zodiac Zone
 email: zodiaczonehoroscope@gmail.com
 pwalink: "https://app.zodiaczonehoroscope.com/"
-googleplaylink: "https://play.google.com/store/apps/details?id=com.counterpeople.www.twa"
+googleplaylink: "https://play.google.com/store/apps/details?id=com.zodiaczonehoroscope.app.twa"
 appstorelink: "/?ref=requestappstore"
 description: "Explore Zodiac Zone for insightful daily horoscopes, love compatibility, and personalized astrological guidance to elevate your lifestyle. Your cosmic journey begins here."
 twitter_username: TwitterUsername
@@ -105,7 +105,7 @@ author:
       url: "https://app.counterpeople.com/"
     - label: "Google Play"
       icon: "fab fa-fw fa-google-play"
-      url: "https://play.google.com/store/apps/details?id=com.counterpeople.www.twa"
+      url: "https://play.google.com/store/apps/details?id=com.zodiaczonehoroscope.app.twa"
 # - label: "Apple Store"
 #   icon: "fab fa-fw fa-apple"
 #   url: "https://"
@@ -162,7 +162,7 @@ defaults:
       share: true
       search: true
       related: true
-      classes: "theme-dark"
+      classes: "theme-dark blogapp"
       header:
         overlay_filter: linear-gradient(to right bottom,rgb(50 17 132 / 95%), rgb(249 212 73 / 58%))
   # _pages
@@ -177,6 +177,9 @@ defaults:
 category_archive:
   type: liquid
   path: /categories/
+category_archiveapp:
+  type: liquid
+  path: /categoriesapp/
 tag_archive:
   type: liquid
   path: /tags/

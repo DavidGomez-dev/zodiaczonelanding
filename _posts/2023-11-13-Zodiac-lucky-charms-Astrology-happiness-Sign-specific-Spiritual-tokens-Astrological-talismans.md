@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Zodiac Lucky Charms: Your Personal Guide to Astrological Talismans for Happiness"
-categories: blog
+categories: lifestyle
 tags:
   - Zodiac lucky charms
   - Astrology happiness
