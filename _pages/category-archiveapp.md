@@ -2,5 +2,6 @@
 title: "Articles by Section"
 layout: categoriesapp
 permalink: /categoriesapp/
-author_profile: true
+entries_layout: "grid"
+author_profile: false
 ---

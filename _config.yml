@@ -22,7 +22,7 @@ description: "Explore Zodiac Zone for insightful daily horoscopes, love compatib
 twitter_username: TwitterUsername
 github_username: username
 minimal_mistakes_skin: contrast #default
-teaser: "/assets/images/500x300.jpeg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser: "/assets/images/featured.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 comments:
   provider: # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
@@ -39,7 +39,7 @@ facebook:
   username: FacebookUsername
   app_id:
   publisher:
-og_image: /assets/images/500x300.jpeg
+og_image: /assets/images/featured.png
 
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
@@ -96,13 +96,13 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name: "People Counter"
+  name: "Zodic Zone"
   avatar: "/assets/images/appmockup.png"
-  bio: "A free people counter app, digital tally or clicker for counting people or attendance at your events on real time, with multiple entrances and exists and offline support."
+  bio: "Explore Zodiac Zone for insightful daily horoscopes, love compatibility, and personalized astrological guidance to elevate your lifestyle. Your cosmic journey begins here."
   links:
     - label: "Web App"
       icon: "fas fa-fw fa-mobile-alt"
-      url: "https://app.counterpeople.com/"
+      url: "https://app.zodiaczonehoroscope.com/"
     - label: "Google Play"
       icon: "fab fa-fw fa-google-play"
       url: "https://play.google.com/store/apps/details?id=com.zodiaczonehoroscope.app.twa"
@@ -126,7 +126,7 @@ footer:
       url: "https://twitter.com/"
     - label: "Sitemap"
       icon: "fab fa-fw fa-sitemap"
-      url: "https://www.counterpeople.com/sitemap.xml"
+      url: "https://www.zodiaczonehoroscope.com/sitemap.xml"
     - label: #"GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"

@@ -14,6 +14,14 @@ h3 {
   font-family: $headings-font-family;
 }
 
+.archive__item-teaser {
+  max-height: 200px; // Limit the height on the reel of post
+}
+
+.achive > .page__title {
+  margin-bottom: 1.5rem !important;
+}
+
 // For putting the blog on the app
 
 .blogapp .initial-content,
@@ -40,6 +48,12 @@ body.theme-dark,
 .theme-dark .page__meta {
   background-color: #0f1117;
   color: #d6d6d6;
+}
+.theme-dark .social-icons .fas,
+.theme-dark .social-icons .fab,
+.theme-dark .social-icons .far,
+.theme-dark .social-icons .fal {
+  color: #d6d6d6 !important;
 }
 
 .theme-dark .page__hero--overlay .page__meta {
