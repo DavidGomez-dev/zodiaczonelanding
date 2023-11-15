@@ -19,7 +19,7 @@ pwalink: "https://app.zodiaczonehoroscope.com/"
 googleplaylink: "https://play.google.com/store/apps/details?id=com.zodiaczonehoroscope.app.twa"
 appstorelink: "/?ref=requestappstore"
 description: "Explore Zodiac Zone for insightful daily horoscopes, love compatibility, and personalized astrological guidance to elevate your lifestyle. Your cosmic journey begins here."
-twitter_username: TwitterUsername
+twitter_username: Zodiac__Zone
 github_username: username
 minimal_mistakes_skin: contrast #default
 teaser: "/assets/images/featured.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -34,7 +34,7 @@ bing_site_verification:
 
 # Social Sharing
 twitter:
-  username: TwitterUsername
+  username: Zodiac__Zone
 facebook:
   username: FacebookUsername
   app_id:
@@ -52,9 +52,9 @@ social:
 
 # Analytics
 analytics:
-  provider: # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider: "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id: #'G-XXXXXXX'
+    tracking_id: G-GV3DBJ0HFQ
     anonymize_ip: # true, false (default)
 
 # Additional scripts (for New Age + Bootstrap)
@@ -123,7 +123,7 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/Zodiac__Zone"
     - label: "Sitemap"
       icon: "fab fa-fw fa-sitemap"
       url: "https://www.zodiaczonehoroscope.com/sitemap.xml"
