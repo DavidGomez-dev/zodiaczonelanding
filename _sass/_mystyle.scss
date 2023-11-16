@@ -22,6 +22,10 @@ h3 {
   margin-bottom: 1.5rem !important;
 }
 
+.masthead .masthead-device-mockup .device-wrapper {
+  max-width: 15rem !important;
+}
+
 // For putting the blog on the app
 
 .blogapp .initial-content,
@@ -87,4 +91,36 @@ body.theme-dark,
     url(../images/bg-zodiac.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+// Avatars
+.avatar-group .avatar {
+  margin-right: -20px; /* Adjust as needed */
+  display: inline-block;
+  border-color: #0f1117;
+  border-width: 4px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  border: 0 solid #0f1117;
+}
+
+.avatar {
+  width: 48px; /* Adjust as per your requirements */
+  height: 48px;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.flipped {
+  transform: scaleX(-1);
 }
