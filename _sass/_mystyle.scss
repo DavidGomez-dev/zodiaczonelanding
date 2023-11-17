@@ -18,6 +18,12 @@ h3 {
 //   max-height: 200px; // Limit the height on the reel of post
 // }
 
+@media (min-width: 48em) {
+  .archive__item-teaser img {
+    transform: translateY(-25%) !important; // Better ajustment for square pictures
+  }
+}
+
 .achive > .page__title {
   margin-bottom: 1.5rem !important;
 }
