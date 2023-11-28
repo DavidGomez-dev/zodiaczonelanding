@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: singleapp
 title: "The Mystical Connection: Moon Phases and Their Impact on Zodiac Signs"
 categories: astrology
 tags:
@@ -8,16 +8,15 @@ tags:
   - New/full moon rituals
   - Astrological lunar energy
   - Moon sign influences
-classes: wide theme-dark
+classes: wide theme-dark blogapp
 date: 2023-11-24 12:02:20 +0100
 excerpt: The Moon, our celestial neighbor, has long fascinated us with its rhythmic dance through the night sky.
 header:
   overlay_image: /assets/images/posts/2023-11-24_275.png
   teaser: /assets/images/posts/2023-11-24_275.png
-  caption:
+  caption: 
   overlay_filter: linear-gradient(to right bottom,rgba(150, 122, 220,0.8), rgba(255,245,208,0.5))
 ---
-
 # The Mystical Connection: Moon Phases and Their Impact on Zodiac Signs
 
 The Moon, our celestial neighbor, has long fascinated us with its rhythmic dance through the night sky. Its phases mark the passing of time and its luminescence has been a source of wonder and inspiration. In astrology, the **lunar cycle** has a significant role, influencing our lives in subtle but profound ways. This article delves into the **lunar cycle astrology** and the impact of **moon phases zodiac impact**, aligns with **new/full moon rituals**, and discusses how **astrological lunar energy** plays into the characteristics attributed to our **moon sign influences**.
