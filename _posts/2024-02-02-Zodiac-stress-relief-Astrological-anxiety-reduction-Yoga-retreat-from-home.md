@@ -1,12 +1,12 @@
 ---
-layout: singleapp
+layout: single
 title: "Embrace the Changing Seasons with Mindfulness Practices for Zodiac Stress Relief and Astrological Anxiety Reduction"
 categories: lifestyle
 tags:
   - Zodiac stress relief
   - Astrological anxiety reduction
   - Yoga retreat from home
-classes: wide theme-dark blogapp
+classes: wide theme-dark
 date: 2024-02-02 12:01:48 +0100
 excerpt: As the seasons transition, our bodies and minds often require time to adjust.
 header:
