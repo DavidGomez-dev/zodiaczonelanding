@@ -1,21 +1,21 @@
 ---
-  layout: single
-  title: "Unraveling Zodiac Birthstones: Mystical Gemstones Tailored to Each Astrological Sign"
-  categories: astrology
-  tags:
-    - Zodiac birthstones
+layout: single
+title: "Unraveling Zodiac Birthstones: Mystical Gemstones Tailored to Each Astrological Sign"
+categories: astrology
+tags:
+  - Zodiac birthstones
   - Astrological gemstones
   - Sign-specific stones
   - Mystical properties of gemstones
   - Zodiac and crystals
-  classes: wide theme-dark
-  date: 2024-04-22 14:53:51 +0100
-  excerpt: Discovering the perfect Zodiac birthstones for each sign is like unlocking a personalized treasure chest of energy and potential.
-  header:
-    overlay_image: /assets/images/posts/2024-04-22_31.png
-    teaser: /assets/images/posts/2024-04-22_31.png
-    caption: 
-    overlay_filter: linear-gradient(to right bottom,rgba(150, 122, 220,0.8), rgba(255,245,208,0.5))
+classes: wide theme-dark
+date: 2024-04-22 14:53:51 +0100
+excerpt: Discovering the perfect Zodiac birthstones for each sign is like unlocking a personalized treasure chest of energy and potential.
+header:
+  overlay_image: /assets/images/posts/2024-04-22_31.png
+  teaser: /assets/images/posts/2024-04-22_31.png
+  caption:
+  overlay_filter: linear-gradient(to right bottom,rgba(150, 122, 220,0.8), rgba(255,245,208,0.5))
 ---
 
 # Unraveling Zodiac Birthstones: Mystical Gemstones Tailored to Each Astrological Sign

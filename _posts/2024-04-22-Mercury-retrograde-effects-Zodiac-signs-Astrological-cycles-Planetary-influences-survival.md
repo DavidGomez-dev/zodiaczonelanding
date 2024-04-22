@@ -1,21 +1,21 @@
 ---
-  layout: single
-  title: "Navigating the Cosmic Shuffle: How Mercury Retrograde Influences Each Zodiac Sign"
-  categories: astrology
-  tags:
-    - Mercury retrograde effects
+layout: single
+title: "Navigating the Cosmic Shuffle: How Mercury Retrograde Influences Each Zodiac Sign"
+categories: astrology
+tags:
+  - Mercury retrograde effects
   - Zodiac signs
   - Astrological cycles
   - Planetary influences
   - Mercury retrograde survival
-  classes: wide theme-dark
-  date: 2024-04-22 15:49:03 +0100
-  excerpt: Mercury retrograde effects are a hot topic in the world of astrology, often coinciding with periods of confusion, delay, and frustration for many.
-  header:
-    overlay_image: /assets/images/posts/2024-04-22_178.png
-    teaser: /assets/images/posts/2024-04-22_178.png
-    caption: 
-    overlay_filter: linear-gradient(to right bottom,rgba(150, 122, 220,0.8), rgba(255,245,208,0.5))
+classes: wide theme-dark
+date: 2024-04-22 15:49:03 +0100
+excerpt: Mercury retrograde effects are a hot topic in the world of astrology, often coinciding with periods of confusion, delay, and frustration for many.
+header:
+  overlay_image: /assets/images/posts/2024-04-22_178.png
+  teaser: /assets/images/posts/2024-04-22_178.png
+  caption:
+  overlay_filter: linear-gradient(to right bottom,rgba(150, 122, 220,0.8), rgba(255,245,208,0.5))
 ---
 
 # Navigating the Cosmic Shuffle: How Mercury Retrograde Influences Each Zodiac Sign
