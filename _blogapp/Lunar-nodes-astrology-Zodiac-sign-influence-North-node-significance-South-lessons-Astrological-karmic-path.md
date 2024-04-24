@@ -3,7 +3,7 @@ layout: singleapp
 title: "Navigating Life's Journey: The Role of Lunar Nodes in Shaping Your Zodiac Sign's Destiny"
 categories: astrology
 tags:
-    - Lunar nodes astrology
+  - Lunar nodes astrology
   - Zodiac sign influence
   - North node significance
   - South node lessons
@@ -14,7 +14,7 @@ excerpt: The Lunar nodes are pivotal in understanding the celestial forces at pl
 header:
   overlay_image: /assets/images/posts/2024-04-23_604.png
   teaser: /assets/images/posts/2024-04-23_604.png
-  caption: 
+  caption:
   overlay_filter: linear-gradient(to right bottom,rgba(150, 122, 220,0.8), rgba(255,245,208,0.5))
 ---
 
