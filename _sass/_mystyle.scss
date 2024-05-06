@@ -130,3 +130,15 @@ body.theme-dark,
 .flipped {
   transform: scaleX(-1);
 }
+
+.theme-dark #apps .card-body {
+  background-color: #000 !important;
+}
+
+.theme-dark #apps .card-footer {
+  background-color: rgb(0 0 0 / 74%) !important;
+}
+
+.theme-dark #apps .card {
+  border-color: rgb(0 0 0 / 74%) !important;
+}
