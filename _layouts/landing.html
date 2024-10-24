@@ -3,167 +3,141 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    {% include head.html %} {% include head/custom.html %}
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <!-- <link href="assets/css/styles.css" rel="stylesheet" /> -->
-  </head>
-  <body id="page-top" class="theme-dark">
-    <!-- Navigation-->
-    {% include navigation.html %}
-    <!-- Mashead header-->
-    <header class="masthead">
-      <div class="container px-5">
-        <div class="row gx-5 align-items-center">
-          <div class="col-lg-6">
-            <!-- Mashead text and app badges-->
-            <div class="mb-5 mb-lg-0 text-center text-lg-start">
-              <h1 class="display-1 lh-1 mb-3">Your Daily Cosmic Guide</h1>
-              <p class="lead fw-normal mb-5">
-                Dive into the mysteries of the cosmos with Zodiac Zone, your premier zodiac lifestyle companion. Explore
-                daily horoscopes, get inspiration, zodiac compatibility, and find wisdom in the stars.
-              </p>
-              <div class="d-flex flex-column flex-lg-row align-items-center">
-                <a class="me-lg-3 mb-4 mb-lg-0" href="{{ site.pwalink }}"
-                  ><img class="app-badge" src="assets/images/pwa-badge.svg" alt="Launch {{ site.title}} on your device"
-                /></a>
-                <a class="me-lg-3 mb-4 mb-lg-0" href="{{ site.googleplaylink }}"
-                  ><img
-                    class="app-badge"
-                    src="assets/images/google-play-badge.svg"
-                    alt="Download {{ site.title}} from Google Play"
-                /></a>
-                <a href="{{ site.appstorelink }}"
-                  ><img
-                    class="app-badge"
-                    src="assets/images/app-store-badge.svg"
-                    alt="Download {{ site.title}} from Apple Store"
-                /></a>
+
+<head>
+  {% include head.html %} {% include head/custom.html %}
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <!-- <link href="assets/css/styles.css" rel="stylesheet" /> -->
+</head>
+
+<body id="page-top" class="theme-dark">
+  <!-- Navigation-->
+  {% include navigation.html %}
+  <!-- Mashead header-->
+  <header class="masthead">
+    <div class="container px-5">
+      <div class="row gx-5 align-items-center">
+        <div class="col-lg-6">
+          <!-- Mashead text and app badges-->
+          <div class="mb-5 mb-lg-0 text-center text-lg-start">
+            <h1 class="display-1 lh-1 mb-3">Your Daily Cosmic Guide</h1>
+            <p class="lead fw-normal mb-5">
+              Dive into the mysteries of the cosmos with Zodiac Zone, your premier zodiac lifestyle companion. Explore
+              daily horoscopes, get inspiration, zodiac compatibility, and find wisdom in the stars.
+            </p>
+            <div class="d-flex flex-column flex-lg-row align-items-center">
+              <a class="me-lg-3 mb-4 mb-lg-0" href="{{ site.pwalink }}"><img class="app-badge" src="assets/images/pwa-badge.svg" alt="Launch {{ site.title}} on your device" /></a>
+              <a class="me-lg-3 mb-4 mb-lg-0" href="{{ site.googleplaylink }}"><img class="app-badge" src="assets/images/google-play-badge.svg" alt="Download {{ site.title}} from Google Play" /></a>
+              <a href="{{ site.appstorelink }}"><img class="app-badge" src="assets/images/app-store-badge.svg" alt="Download {{ site.title}} from Apple Store" /></a>
+            </div>
+            <div class="d-flex flex-column flex-md-row justify-content-center align-items-center g-3 gap-4 mt-5">
+              <div class="avatar-group">
+                <!-- Custom class for avatar grouping -->
+                <!-- Avatar items -->
+                <div class="avatar">
+                  <!-- Custom class for avatar size -->
+                  <img alt="Testimonial of using Zodiac Zone" src="assets/images/testimonial_1.png" />
+                </div>
+                <div class="avatar">
+                  <!-- Custom class for avatar size -->
+                  <img alt="Testimonial of using Zodiac Zone" src="assets/images/testimonial_2.png" />
+                </div>
+                <div class="avatar">
+                  <!-- Custom class for avatar size -->
+                  <img alt="Testimonial of using Zodiac Zone" src="assets/images/testimonial_3.png" />
+                </div>
+                <div class="avatar">
+                  <!-- Custom class for avatar size -->
+                  <img alt="Testimonial of using Zodiac Zone" src="assets/images/testimonial_4.png" />
+                </div>
+                <div class="avatar">
+                  <!-- Custom class for avatar size -->
+                  <img alt="Testimonial of using Zodiac Zone" src="assets/images/testimonial_maria.png" />
+                </div>
               </div>
-              <div class="d-flex flex-column flex-md-row justify-content-center align-items-center g-3 gap-4 mt-5">
-                <div class="avatar-group">
-                  <!-- Custom class for avatar grouping -->
-                  <!-- Avatar items -->
-                  <div class="avatar">
-                    <!-- Custom class for avatar size -->
-                    <img alt="Testimonial of using Zodiac Zone" src="assets/images/testimonial_1.png" />
-                  </div>
-                  <div class="avatar">
-                    <!-- Custom class for avatar size -->
-                    <img alt="Testimonial of using Zodiac Zone" src="assets/images/testimonial_2.png" />
-                  </div>
-                  <div class="avatar">
-                    <!-- Custom class for avatar size -->
-                    <img alt="Testimonial of using Zodiac Zone" src="assets/images/testimonial_3.png" />
-                  </div>
-                  <div class="avatar">
-                    <!-- Custom class for avatar size -->
-                    <img alt="Testimonial of using Zodiac Zone" src="assets/images/testimonial_4.png" />
-                  </div>
-                  <div class="avatar">
-                    <!-- Custom class for avatar size -->
-                    <img alt="Testimonial of using Zodiac Zone" src="assets/images/testimonial_maria.png" />
-                  </div>
+              <div class="d-flex flex-column justify-content-center align-items-center align-items-md-start g-1">
+                <div class="rating">
+                  <i class="fa fa-star text-warning"></i>
+                  <i class="fa fa-star text-warning"></i>
+                  <i class="fa fa-star text-warning"></i>
+                  <i class="fa fa-star text-warning"></i>
+                  <i class="fa fa-star text-warning"></i>
                 </div>
-                <div class="d-flex flex-column justify-content-center align-items-center align-items-md-start g-1">
-                  <div class="rating">
-                    <i class="fa fa-star text-warning"></i>
-                    <i class="fa fa-star text-warning"></i>
-                    <i class="fa fa-star text-warning"></i>
-                    <i class="fa fa-star text-warning"></i>
-                    <i class="fa fa-star text-warning"></i>
-                  </div>
-                  <div class="text-muted"><span class="fw-bold fs-5 text-white">+100k</span> happy users worldwide</div>
-                </div>
+                <div class="text-muted"><span class="fw-bold fs-5 text-white">+100k</span> happy users worldwide</div>
               </div>
             </div>
           </div>
-          <div class="col-lg-6">
-            <!-- Masthead device mockup feature-->
-            <div class="row justify-content-center">
-              <div class="col-sm-4">
-                <div class="d-flex justify-content-center align-items-center text-white p-3 rounded-3 mb-3">
-                  <img src="assets/images/laurel.svg" alt="Laurel Left" class="" style="height: 64px" />
-                  <span class="text-center">
-                    <span class="fs-4 fw-bold">1M+</span>
-                    <br />
-                    <!-- Line break to move 'downloads' to a new line -->
-                    <span class="fs-6">downloads</span>
-                  </span>
-                  <img src="assets/images/laurel.svg" alt="Laurel Right" class="flipped" style="height: 64px" />
-                </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="d-flex justify-content-center align-items-center text-white p-3 rounded-3 mb-3">
-                  <img src="assets/images/laurel.svg" alt="Laurel Left" class="" style="height: 64px" />
-                  <span class="text-center">
-                    <span class="fs-4 fw-bold">1<sup class="fs-6 fw-bold">st</sup></span>
-                    <br />
-                    <!-- Line break to move 'downloads' to a new line -->
-                    <span class="fs-8">product</span>
-                  </span>
-                  <img src="assets/images/laurel.svg" alt="Laurel Right" class="flipped" style="height: 64px" />
-                </div>
+        </div>
+        <div class="col-lg-6">
+          <!-- Masthead device mockup feature-->
+          <div class="row justify-content-center">
+            <div class="col-sm-4">
+              <div class="d-flex justify-content-center align-items-center text-white p-3 rounded-3 mb-3">
+                <img src="assets/images/laurel.svg" alt="Laurel Left" class="" style="height: 64px" />
+                <span class="text-center">
+                  <span class="fs-4 fw-bold">1M+</span>
+                  <br />
+                  <!-- Line break to move 'downloads' to a new line -->
+                  <span class="fs-6">downloads</span>
+                </span>
+                <img src="assets/images/laurel.svg" alt="Laurel Right" class="flipped" style="height: 64px" />
               </div>
             </div>
-            <div class="masthead-device-mockup">
-              <svg class="circle" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                <defs>
-                  <linearGradient id="circleGradient" gradientTransform="rotate(45)">
-                    <stop class="gradient-start-color" offset="0%"></stop>
-                    <stop class="gradient-end-color" offset="100%"></stop>
-                  </linearGradient>
-                </defs>
-                <circle cx="50" cy="50" r="50"></circle></svg
-              ><svg class="shape-1 d-none d-sm-block" viewBox="0 0 240.83 240.83" xmlns="http://www.w3.org/2000/svg">
-                <rect
-                  x="-32.54"
-                  y="78.39"
-                  width="305.92"
-                  height="84.05"
-                  rx="42.03"
-                  transform="translate(120.42 -49.88) rotate(45)"
-                ></rect>
-                <rect
-                  x="-32.54"
-                  y="78.39"
-                  width="305.92"
-                  height="84.05"
-                  rx="42.03"
-                  transform="translate(-49.88 120.42) rotate(-45)"
-                ></rect></svg
-              ><svg class="shape-2 d-none d-sm-block" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="50" cy="50" r="50"></circle>
-              </svg>
-              <div class="device-wrapper">
-                <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
-                  <a href="{{ site.pwalink }}" alt="Launch Web App">
-                    <div class="screen bg-black">
-                      <!-- PUT CONTENTS HERE:-->
-                      <!-- * * This can be a video, image, or just about anything else.-->
-                      <!-- * * Set the max width of your media to 100% and the height to-->
-                      <!-- * * 100% like the demo example below.-->
-                      <img
-                        src="assets/images/demo-screen.gif"
-                        style="max-width: 100%; height: 100%"
-                        alt="Zodiac Zone App"
-                        srcset=""
-                      />
-                    </div>
-                  </a>
-                </div>
+            <div class="col-sm-4">
+              <div class="d-flex justify-content-center align-items-center text-white p-3 rounded-3 mb-3">
+                <img src="assets/images/laurel.svg" alt="Laurel Left" class="" style="height: 64px" />
+                <span class="text-center">
+                  <span class="fs-4 fw-bold">1<sup class="fs-6 fw-bold">st</sup></span>
+                  <br />
+                  <!-- Line break to move 'downloads' to a new line -->
+                  <span class="fs-8">product</span>
+                </span>
+                <img src="assets/images/laurel.svg" alt="Laurel Right" class="flipped" style="height: 64px" />
+              </div>
+            </div>
+          </div>
+          <div class="masthead-device-mockup">
+            <svg class="circle" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="circleGradient" gradientTransform="rotate(45)">
+                  <stop class="gradient-start-color" offset="0%"></stop>
+                  <stop class="gradient-end-color" offset="100%"></stop>
+                </linearGradient>
+              </defs>
+              <circle cx="50" cy="50" r="50"></circle>
+            </svg><svg class="shape-1 d-none d-sm-block" viewBox="0 0 240.83 240.83" xmlns="http://www.w3.org/2000/svg">
+              <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(120.42 -49.88) rotate(45)"></rect>
+              <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(-49.88 120.42) rotate(-45)"></rect>
+            </svg><svg class="shape-2 d-none d-sm-block" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="50" cy="50" r="50"></circle>
+            </svg>
+            <div class="device-wrapper">
+              <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                <a href="{{ site.pwalink }}" alt="Launch Web App">
+                  <div class="screen bg-black">
+                    <!-- PUT CONTENTS HERE:-->
+                    <!-- * * This can be a video, image, or just about anything else.-->
+                    <!-- * * Set the max width of your media to 100% and the height to-->
+                    <!-- * * 100% like the demo example below.-->
+                    <img src="assets/images/demo-screen.gif" style="max-width: 100%; height: 100%" alt="Zodiac Zone App" srcset="" />
+                  </div>
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </header>
-    <!-- Quote/testimonial aside-->
-    <aside class="text-center bg-light">
-      <div class="container px-5">
-        <div class="row gx-5 justify-content-center">
-          <div class="col-xl-8">
-            <div class="h2 fs-1 text-white mb-4">
+    </div>
+  </header>
+  <!-- Quote/testimonial aside-->
+
+
+
+  <aside class="text-center bg-light">
+    <div class="container px-5">
+      <div class="row gx-5 justify-content-center">
+        <div class="col-xl-8">
+          <!-- <div class="h2 fs-1 text-white mb-4">
               "Zodiac Zone has been a game-changer for me. With daily horoscopes that are eerily accurate and
               insightful, it's like having a personal astrologer in my pocket."
             </div>
@@ -173,285 +147,237 @@
               alt="Zodiac Zone user"
               style="height: 9rem"
             />
-            <div class="text-muted">"Maria - Phoenix, AZ."</div>
+            <div class="text-muted">"Maria - Phoenix, AZ."</div> -->
+          <div class="h2 fs-1 text-white mb-4">
+            <a href="https://www.apartmentguide.com/blog/how-to-decorate-according-to-your-zodiac-sign/">
+              When it comes to home decor, the concepts of minimalism and maximalism are two sides of the same coin. While minimalism champions simplicity and functionality, maximalism celebrates boldness and exuberance. Whether you're curating a minimalist sanctuary in your Charleston, SC home, a vibrant, maximalist space in your Denver, CO apartment, or a balanced style in your San Diego, CA rental, the stars might offer some insight into your home style. Here's how to decorate according to your zodiac sign and align your home with minimalism, maximalism, or a blend of both.
+              Read the full article here: Maximalist vs Minimalist: How to Decorate According to Your Zodiac Sign.</a>| ApartmentGuide
           </div>
+          <img class="img-fluid" src="assets/images/testimonial.png" alt="Zodiac Zone user" style="height: 9rem" />
+          <div class="text-muted">featured in ApartmetGuide</div>
         </div>
       </div>
-    </aside>
-    <!-- App features section-->
-    <section id="features">
-      <div class="container px-5">
-        <div class="row gx-5 align-items-center">
-          <div class="col-lg-8 order-lg-1 mb-5 mb-lg-0">
-            <div class="container-fluid px-5">
-              <div class="row gx-5">
-                <div class="col-md-6 mb-5">
-                  <!-- Feature item-->
-                  <div class="text-center">
-                    <i class="bi-star icon-feature text-gradient d-block mb-3"></i>
-                    <h3 class="font-alt">Zodiac Horoscope</h3>
-                    <p class="mb-0">
-                      Get daily insights with personalized horoscopes and astrological predictions. Navigate your life
-                      with the wisdom of the stars.
-                    </p>
-                  </div>
-                </div>
-                <div class="col-md-6 mb-5">
-                  <!-- Feature item-->
-                  <div class="text-center">
-                    <i class="bi-heart icon-feature text-gradient d-block mb-3"></i>
-                    <h3 class="font-alt">Compatibility Charts</h3>
-                    <p class="mb-0">
-                      Explore potential connections with our in-depth compatibility charts and find harmony in
-                      relationships.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6 mb-5 mb-md-0">
-                  <!-- Feature item-->
-                  <div class="text-center">
-                    <i class="bi-sunrise icon-feature text-gradient d-block mb-3"></i>
-                    <h3 class="font-alt">Daily Inspiration</h3>
-                    <p class="mb-0">
-                      Start your day with motivational quotes and positive affirmations curated to align with your
-                      zodiac sign's current energy.
-                    </p>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <!-- Feature item-->
-                  <div class="text-center">
-                    <i class="bi-journal-bookmark icon-feature text-gradient d-block mb-3"></i>
-                    <h3 class="font-alt">Lifestyle Articles</h3>
-                    <p class="mb-0">
-                      Read the latest articles on zodiac lifestyle, astrological events, and how they influence your
-                      personal growth and success.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 order-lg-0">
-            <!-- Features section device mockup-->
-            <div class="features-device-mockup">
-              <svg class="circle" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                <defs>
-                  <linearGradient id="circleGradient" gradientTransform="rotate(45)">
-                    <stop class="gradient-start-color" offset="0%"></stop>
-                    <stop class="gradient-end-color" offset="100%"></stop>
-                  </linearGradient>
-                </defs>
-                <circle cx="50" cy="50" r="50"></circle></svg
-              ><svg class="shape-1 d-none d-sm-block" viewBox="0 0 240.83 240.83" xmlns="http://www.w3.org/2000/svg">
-                <rect
-                  x="-32.54"
-                  y="78.39"
-                  width="305.92"
-                  height="84.05"
-                  rx="42.03"
-                  transform="translate(120.42 -49.88) rotate(45)"
-                ></rect>
-                <rect
-                  x="-32.54"
-                  y="78.39"
-                  width="305.92"
-                  height="84.05"
-                  rx="42.03"
-                  transform="translate(-49.88 120.42) rotate(-45)"
-                ></rect></svg
-              ><svg class="shape-2 d-none d-sm-block" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="50" cy="50" r="50"></circle>
-              </svg>
-              <div class="device-wrapper">
-                <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
-                  <div class="screen bg-black">
-                    <!-- PUT CONTENTS HERE:-->
-                    <!-- * * This can be a video, image, or just about anything else.-->
-                    <!-- * * Set the max width of your media to 100% and the height to-->
-                    <!-- * * 100% like the demo example below.-->
-                    <img
-                      src="assets/images/demo-screen.gif"
-                      style="max-width: 100%; height: 100%"
-                      alt="Zodiac Zone App"
-                      srcset=""
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Basic features section-->
-    <section class="bg-light">
-      <div class="container px-5">
-        <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
-          <div class="col-12 col-lg-5">
-            <h2 class="display-4 lh-1 mb-4">Step into the Celestial Stream with Zodiac Zone</h2>
-            <p class="lead fw-normal text-muted mb-5 mb-lg-0">
-              In the vast dance of the cosmos, each soul has its place. With Zodiac Zone, you are invited to tap into
-              the ancient wisdom of astrology, tailored for the modern seeker. Here lies a sanctuary where the stars
-              speak to you through daily horoscopes, guiding your path with the celestial bodies' alignment. Embrace
-              this cosmic connection, and let it illuminate the journey to your truest self.
-            </p>
-          </div>
-          <div class="col-sm-8 col-md-6">
-            <div class="px-5 px-sm-0">
-              <img class="img-fluid rounded-circle" src="assets/images/bg-guru.jpg" alt="Zodiac Zone Horoscope" />
-            </div>
-          </div>
-        </div>
-        <div class="d-flex flex-column flex-lg-row align-items-center mt-5">
-          <a class="me-lg-3 mb-4 mb-lg-0" href="{{ site.pwalink }}"
-            ><img class="app-badge" src="assets/images/pwa-badge.svg" alt="Launch {{ site.title}} on your device"
-          /></a>
-          <a class="me-lg-3 mb-4 mb-lg-0" href="{{ site.googleplaylink }}"
-            ><img
-              class="app-badge"
-              src="assets/images/google-play-badge.svg"
-              alt="Download {{ site.title}} from Google Play"
-          /></a>
-          <a href="{{ site.appstorelink }}"
-            ><img
-              class="app-badge"
-              src="assets/images/app-store-badge.svg"
-              alt="Download {{ site.title}} from Apple Store"
-          /></a>
-        </div>
-      </div>
-    </section>
-    <!-- Blog Section-->
-    <section id="blog">
-      <div class="container px-5">
-        <h2 class="display-4 lh-1 mb-4">Wisdom from the stars</h2>
-        <div class="entries-grid">
-          {% for post in site.posts limit:8 %} {% include archive-single.html type="grid" %} {% endfor %}
-        </div>
-      </div>
-    </section>
-    <!-- Call to action section-->
-    <section class="cta">
-      <div class="cta-content">
-        <div class="container px-5">
-          <h2 class="text-white display-1 lh-1 mb-4">
-            Embrace the Stars.
-            <br />
-            Start Your Journey.
-          </h2>
-          <a class="btn btn-primary py-3 px-4 rounded-pill" href="{{ site.pwalink }}" target="_blank"
-            >Discover Your Zodiac →</a
-          >
-        </div>
-      </div>
-    </section>
-    <!-- App badge section-->
-    <section class="bg-gradient-primary-to-secondary" id="download">
-      <div class="container px-5">
-        <h3 class="text-center text-white font-alt mb-4">Get the app now!</h3>
-        <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center">
-          <a class="me-lg-3 mb-4 mb-lg-0" href="{{ site.pwalink }}"
-            ><img class="app-badge" src="assets/images/pwa-badge.svg" alt="Launch {{ site.title}} on your device"
-          /></a>
-          <a class="me-lg-3 mb-4 mb-lg-0" href="{{ site.googleplaylink }}"
-            ><img
-              class="app-badge"
-              src="assets/images/google-play-badge.svg"
-              alt="Download {{ site.title}} from Google Play"
-          /></a>
-          <a href="{{ site.appstorelink }}"
-            ><img
-              class="app-badge"
-              src="assets/images/app-store-badge.svg"
-              alt="Download {{ site.title}} from Apple Store"
-          /></a>
-        </div>
-      </div>
-    </section>
-    <!-- Other Apps Section-->
-    <section id="apps" class="">
-      <div class="container px-5">
-        <h2 class="display-4 lh-1 mb-4">Related Apps</h2>
-        <p class="lead fw-normal text-muted mb-5">If you like this app you may try these other ones:</p>
-        <div class="container mt-5">
-          <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
-            <!-- Card 1 -->
-            <div class="col">
-              <div class="card h-100">
-                <img src="/assets/images/apps/featuredpeople.png" class="card-img-top" alt="People counter App" />
-                <div class="card-body">
-                  <h5 class="card-title">People Counter</h5>
-                  <p class="card-text">
-                    <a href="https://www.counterpeople.com/">Counter app</a> for people in your events in amazing real
-                    time with your phone, no need for old hand tallies or other devices,. Share the event easily with
-                    other gatekeepers so you can monitor different gates (entrances or exits) at real time, cooperative
-                    and synchronized, knowing always the actual number of people inside.
+    </div>
+  </aside>
+  <!-- App features section-->
+  <section id="features">
+    <div class="container px-5">
+      <div class="row gx-5 align-items-center">
+        <div class="col-lg-8 order-lg-1 mb-5 mb-lg-0">
+          <div class="container-fluid px-5">
+            <div class="row gx-5">
+              <div class="col-md-6 mb-5">
+                <!-- Feature item-->
+                <div class="text-center">
+                  <i class="bi-star icon-feature text-gradient d-block mb-3"></i>
+                  <h3 class="font-alt">Zodiac Horoscope</h3>
+                  <p class="mb-0">
+                    Get daily insights with personalized horoscopes and astrological predictions. Navigate your life
+                    with the wisdom of the stars.
                   </p>
                 </div>
-                <div class="card-footer">
-                  <a href="https://app.counterpeople.com/" class="text-muted"><i class="fab fa-html5 icon"></i></a>
-                  <a href="https://play.google.com/store/apps/details?id=com.counterpeople.www.twa" class="text-muted"
-                    ><i class="fab fa-google-play icon"></i
-                  ></a>
-                  <a href="https://apps.apple.com/us/app/people-counter-digital-tally/id6480425693" class="text-muted"
-                    ><i class="fab fa-app-store-ios icon"></i
-                  ></a>
+              </div>
+              <div class="col-md-6 mb-5">
+                <!-- Feature item-->
+                <div class="text-center">
+                  <i class="bi-heart icon-feature text-gradient d-block mb-3"></i>
+                  <h3 class="font-alt">Compatibility Charts</h3>
+                  <p class="mb-0">
+                    Explore potential connections with our in-depth compatibility charts and find harmony in
+                    relationships.
+                  </p>
                 </div>
               </div>
             </div>
-            <!-- Card 2 -->
-            <div class="col">
-              <div class="card h-100">
-                <img src="/assets/images/apps/featuredfortune.jpg" class="card-img-top" alt="Fortune Cookie App" />
-                <div class="card-body">
-                  <h5 class="card-title">Funny Fortune Cookie</h5>
-                  <p class="card-text">
-                    The ultimate <a href="https://fortunecookie.pro/">fortune cookie app</a> that combines wisdom,
-                    destiny, and a generous splash of humor! Whether you're looking to start your day with a smile,
-                    seeking a chuckle during a coffee break, or in need of a lighthearted moment amidst the hustle and
-                    bustle, Funny Fortune Cookie has got you covered.
+            <div class="row">
+              <div class="col-md-6 mb-5 mb-md-0">
+                <!-- Feature item-->
+                <div class="text-center">
+                  <i class="bi-sunrise icon-feature text-gradient d-block mb-3"></i>
+                  <h3 class="font-alt">Daily Inspiration</h3>
+                  <p class="mb-0">
+                    Start your day with motivational quotes and positive affirmations curated to align with your
+                    zodiac sign's current energy.
                   </p>
                 </div>
-                <div class="card-footer">
-                  <a href="https://play.google.com/store/apps/details?id=pro.fortunecookie.app" class="text-muted"
-                    ><i class="fab fa-google-play icon"></i
-                  ></a>
-                  <a href="https://apps.apple.com/us/app/funny-fortune-cookie/id6479644974" class="text-muted"
-                    ><i class="fab fa-app-store-ios icon"></i
-                  ></a>
+              </div>
+              <div class="col-md-6">
+                <!-- Feature item-->
+                <div class="text-center">
+                  <i class="bi-journal-bookmark icon-feature text-gradient d-block mb-3"></i>
+                  <h3 class="font-alt">Lifestyle Articles</h3>
+                  <p class="mb-0">
+                    Read the latest articles on zodiac lifestyle, astrological events, and how they influence your
+                    personal growth and success.
+                  </p>
                 </div>
               </div>
             </div>
-            <!-- Card 3 -->
-            <div class="col">
-              <div class="card h-100">
-                <img src="/assets/images/apps/featuredenergia.webp" class="card-img-top" alt="Energia Guru App" />
-                <div class="card-body">
-                  <h5 class="card-title">Energia Guru</h5>
-                  <p class="card-text">
-                    Energia Guru es la forma más sencilla de conocer el
-                    <a href="https://www.energia.guru/">precio de la luz</a> cada hora actualizado para hoy y mañana,
-                    para los consumidores que tienen el PVPC. Es la mejor forma de ahorrar en la factura de la
-                    electricidad.
-                  </p>
-                </div>
-                <div class="card-footer">
-                  <a href="https://www.energia.guru/" class="text-muted"><i class="fab fa-html5 icon"></i></a>
-                  <a href="https://play.google.com/store/apps/details?id=guru.energia.www.twa" class="text-muted"
-                    ><i class="fab fa-google-play icon"></i
-                  ></a>
+          </div>
+        </div>
+        <div class="col-lg-4 order-lg-0">
+          <!-- Features section device mockup-->
+          <div class="features-device-mockup">
+            <svg class="circle" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="circleGradient" gradientTransform="rotate(45)">
+                  <stop class="gradient-start-color" offset="0%"></stop>
+                  <stop class="gradient-end-color" offset="100%"></stop>
+                </linearGradient>
+              </defs>
+              <circle cx="50" cy="50" r="50"></circle>
+            </svg><svg class="shape-1 d-none d-sm-block" viewBox="0 0 240.83 240.83" xmlns="http://www.w3.org/2000/svg">
+              <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(120.42 -49.88) rotate(45)"></rect>
+              <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(-49.88 120.42) rotate(-45)"></rect>
+            </svg><svg class="shape-2 d-none d-sm-block" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="50" cy="50" r="50"></circle>
+            </svg>
+            <div class="device-wrapper">
+              <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                <div class="screen bg-black">
+                  <!-- PUT CONTENTS HERE:-->
+                  <!-- * * This can be a video, image, or just about anything else.-->
+                  <!-- * * Set the max width of your media to 100% and the height to-->
+                  <!-- * * 100% like the demo example below.-->
+                  <img src="assets/images/demo-screen.gif" style="max-width: 100%; height: 100%" alt="Zodiac Zone App" srcset="" />
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- Footer-->
-    <!-- <footer class="bg-black text-center py-5">
+    </div>
+  </section>
+  <!-- Basic features section-->
+  <section class="bg-light">
+    <div class="container px-5">
+      <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
+        <div class="col-12 col-lg-5">
+          <h2 class="display-4 lh-1 mb-4">Step into the Celestial Stream with Zodiac Zone</h2>
+          <p class="lead fw-normal text-muted mb-5 mb-lg-0">
+            In the vast dance of the cosmos, each soul has its place. With Zodiac Zone, you are invited to tap into
+            the ancient wisdom of astrology, tailored for the modern seeker. Here lies a sanctuary where the stars
+            speak to you through daily horoscopes, guiding your path with the celestial bodies' alignment. Embrace
+            this cosmic connection, and let it illuminate the journey to your truest self.
+          </p>
+        </div>
+        <div class="col-sm-8 col-md-6">
+          <div class="px-5 px-sm-0">
+            <img class="img-fluid rounded-circle" src="assets/images/bg-guru.jpg" alt="Zodiac Zone Horoscope" />
+          </div>
+        </div>
+      </div>
+      <div class="d-flex flex-column flex-lg-row align-items-center mt-5">
+        <a class="me-lg-3 mb-4 mb-lg-0" href="{{ site.pwalink }}"><img class="app-badge" src="assets/images/pwa-badge.svg" alt="Launch {{ site.title}} on your device" /></a>
+        <a class="me-lg-3 mb-4 mb-lg-0" href="{{ site.googleplaylink }}"><img class="app-badge" src="assets/images/google-play-badge.svg" alt="Download {{ site.title}} from Google Play" /></a>
+        <a href="{{ site.appstorelink }}"><img class="app-badge" src="assets/images/app-store-badge.svg" alt="Download {{ site.title}} from Apple Store" /></a>
+      </div>
+    </div>
+  </section>
+  <!-- Blog Section-->
+  <section id="blog">
+    <div class="container px-5">
+      <h2 class="display-4 lh-1 mb-4">Wisdom from the stars</h2>
+      <div class="entries-grid">
+        {% for post in site.posts limit:8 %} {% include archive-single.html type="grid" %} {% endfor %}
+      </div>
+    </div>
+  </section>
+  <!-- Call to action section-->
+  <section class="cta">
+    <div class="cta-content">
+      <div class="container px-5">
+        <h2 class="text-white display-1 lh-1 mb-4">
+          Embrace the Stars.
+          <br />
+          Start Your Journey.
+        </h2>
+        <a class="btn btn-primary py-3 px-4 rounded-pill" href="{{ site.pwalink }}" target="_blank">Discover Your Zodiac →</a>
+      </div>
+    </div>
+  </section>
+  <!-- App badge section-->
+  <section class="bg-gradient-primary-to-secondary" id="download">
+    <div class="container px-5">
+      <h3 class="text-center text-white font-alt mb-4">Get the app now!</h3>
+      <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center">
+        <a class="me-lg-3 mb-4 mb-lg-0" href="{{ site.pwalink }}"><img class="app-badge" src="assets/images/pwa-badge.svg" alt="Launch {{ site.title}} on your device" /></a>
+        <a class="me-lg-3 mb-4 mb-lg-0" href="{{ site.googleplaylink }}"><img class="app-badge" src="assets/images/google-play-badge.svg" alt="Download {{ site.title}} from Google Play" /></a>
+        <a href="{{ site.appstorelink }}"><img class="app-badge" src="assets/images/app-store-badge.svg" alt="Download {{ site.title}} from Apple Store" /></a>
+      </div>
+    </div>
+  </section>
+  <!-- Other Apps Section-->
+  <section id="apps" class="">
+    <div class="container px-5">
+      <h2 class="display-4 lh-1 mb-4">Related Apps</h2>
+      <p class="lead fw-normal text-muted mb-5">If you like this app you may try these other ones:</p>
+      <div class="container mt-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+          <!-- Card 1 -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="/assets/images/apps/featuredpeople.png" class="card-img-top" alt="People counter App" />
+              <div class="card-body">
+                <h5 class="card-title">People Counter</h5>
+                <p class="card-text">
+                  <a href="https://www.counterpeople.com/">Counter app</a> for people in your events in amazing real
+                  time with your phone, no need for old hand tallies or other devices,. Share the event easily with
+                  other gatekeepers so you can monitor different gates (entrances or exits) at real time, cooperative
+                  and synchronized, knowing always the actual number of people inside.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="https://app.counterpeople.com/" class="text-muted"><i class="fab fa-html5 icon"></i></a>
+                <a href="https://play.google.com/store/apps/details?id=com.counterpeople.www.twa" class="text-muted"><i class="fab fa-google-play icon"></i></a>
+                <a href="https://apps.apple.com/us/app/people-counter-digital-tally/id6480425693" class="text-muted"><i class="fab fa-app-store-ios icon"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="/assets/images/apps/featuredfortune.jpg" class="card-img-top" alt="Fortune Cookie App" />
+              <div class="card-body">
+                <h5 class="card-title">Funny Fortune Cookie</h5>
+                <p class="card-text">
+                  The ultimate <a href="https://fortunecookie.pro/">fortune cookie app</a> that combines wisdom,
+                  destiny, and a generous splash of humor! Whether you're looking to start your day with a smile,
+                  seeking a chuckle during a coffee break, or in need of a lighthearted moment amidst the hustle and
+                  bustle, Funny Fortune Cookie has got you covered.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="https://play.google.com/store/apps/details?id=pro.fortunecookie.app" class="text-muted"><i class="fab fa-google-play icon"></i></a>
+                <a href="https://apps.apple.com/us/app/funny-fortune-cookie/id6479644974" class="text-muted"><i class="fab fa-app-store-ios icon"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="/assets/images/apps/featuredenergia.webp" class="card-img-top" alt="Energia Guru App" />
+              <div class="card-body">
+                <h5 class="card-title">Energia Guru</h5>
+                <p class="card-text">
+                  Energia Guru es la forma más sencilla de conocer el
+                  <a href="https://www.energia.guru/">precio de la luz</a> cada hora actualizado para hoy y mañana,
+                  para los consumidores que tienen el PVPC. Es la mejor forma de ahorrar en la factura de la
+                  electricidad.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="https://www.energia.guru/" class="text-muted"><i class="fab fa-html5 icon"></i></a>
+                <a href="https://play.google.com/store/apps/details?id=guru.energia.www.twa" class="text-muted"><i class="fab fa-google-play icon"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer-->
+  <!-- <footer class="bg-black text-center py-5">
       <div class="container px-5">
         <div class="text-white-50 small">
           <div class="mb-2">&copy; Your Website 2023. All Rights Reserved.</div>
@@ -463,9 +389,10 @@
         </div>
       </div>
     </footer> -->
-    <div id="footer" class="page__footer mt-0">
-      <footer>{% include footer/custom.html %} {% include_cached footer.html %}</footer>
-    </div>
-    {% include scripts.html %}
-  </body>
+  <div id="footer" class="page__footer mt-0">
+    <footer>{% include footer/custom.html %} {% include_cached footer.html %}</footer>
+  </div>
+  {% include scripts.html %}
+</body>
+
 </html>
